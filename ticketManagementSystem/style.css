@@ -131,13 +131,13 @@ body{
 
 /*styling for ticket */
 .ticket-cont{
-    height: 12rem;
+    height: 13rem;
     width: 16rem;
     background-color: burlywood;
 }
 
 .ticket-color{
-    background-color: pink;
+    
     height: 1rem;
 }
 
@@ -148,10 +148,23 @@ body{
 }
 
 .task-area{
-    height: calc(100% - 1rem - 1.7rem);
+    height: calc(100% - 1rem - 1.7rem - 1.2rem);
     background-color: #636e72;
     padding: .5rem;
     color:aliceblue;
+    outline: none;
+    
+}
+
+.ticket-lock{
+    height: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.2rem;
+    background-color: aliceblue;
+    color: #bdc3c7;
+    align-items: center;
+    padding-right: 1rem;
 }
 
 /*Styling main area*/
